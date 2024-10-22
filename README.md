@@ -38,9 +38,9 @@ This transformation aims to reduce the model's size and complexity while retaini
 ## Results
 After training the model on the CIFAR-10 dataset, the following results were obtained:
 
-- Accuracy before applying weight transformation: 70.88%
-- Accuracy after applying weight transformation: 55.02%
-- Change in accuracy after applying transformation: -15.86%
+- Accuracy before applying weight transformation: 72.59%%
+- Accuracy after applying weight transformation: 72.59%%
+- Change in accuracy after applying transformation: -16.54%
 
 This transformation successfully reduces the model's size by simplifying the weights to ternary values. Despite the notable drop in accuracy (from 70.88% to 55.02%), this trade-off is valuable in scenarios where model compression is critical. The substantial size reduction, achieved with a relatively small loss in accuracy, demonstrates the effectiveness of this approach in balancing performance and efficiency.
 
