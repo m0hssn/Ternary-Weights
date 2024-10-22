@@ -44,8 +44,15 @@ After training the model on the CIFAR-10 dataset, the following results were obt
 
 This transformation successfully reduces the model's size by simplifying the weights to ternary values. Despite the notable drop in accuracy (from 70.88% to 55.02%), this trade-off is valuable in scenarios where model compression is critical. The substantial size reduction, achieved with a relatively small loss in accuracy, demonstrates the effectiveness of this approach in balancing performance and efficiency.
 
-  
-These results indicate a significant drop in accuracy after the ternary transformation, highlighting the trade-off between model size reduction and predictive performance.
+## Future Work
+
+In future iterations of this project, I plan to experiment with techniques to minimize the accuracy drop associated with ternary weight transformations. One potential method is to introduce weight clipping during training. By restricting the range of weights, the transformation into ternary values could become smoother and less prone to extreme shifts that affect performance. The idea is that clipping the weights would help stabilize the ternary conversion, leading to a more efficient balance between model compression and accuracy. This approach could further optimize the trade-off between model size and classification performance.
+
+
+
+
+
+
 
 
 
