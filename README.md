@@ -22,7 +22,7 @@ $$
 $$
 
 
-2. **Weight Transformation Application**: During this step, each weight in the model is transformed based on the ternary transformation function. Additionally, the weights are normalized by dividing by their mean absolute value (`γ`) to ensure proper scaling:
+2. **Weight Transformation Application**: During this step, each weight in the model is transformed based on the ternary transformation function. Additionally, the weights are normalized by dividing by their mean absolute value $\gamma$ to ensure proper scaling:
 
   $$
    \hat{w} = \text{f}\left(\frac{w}{\gamma + \epsilon}\right)
